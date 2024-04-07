@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="391dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/custom_input"
+        android:hint="Enter age of Historical Figure"
+        android:inputType="number"
+        android:paddingHorizontal="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_buttons"
+        android:text="Clear"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_buttons"
+        android:text="Search"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toEndOf="@+id/clearBtn"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <ImageView
+        android:id="@+id/figureIv"
+        android:layout_width="437dp"
+        android:layout_height="491dp"
+        android:layout_marginTop="320dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pointing1"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/infoTv"
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:fontFamily="@font/fredericka_the_great"
+        android:shadowColor="@color/white"
+        android:textAlignment="center"
+        android:textColor="#3E3737"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <ImageView
+        android:id="@+id/notFoundIv"
+        android:layout_width="303dp"
+        android:layout_height="368dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789"
+        app:srcCompat="@drawable/confused" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
