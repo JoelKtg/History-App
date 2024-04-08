@@ -1,4 +1,4 @@
-            - name: automated-build-android-app-with-github-action
+- name: automated-build-android-app-with-github-action
   # You may pin to the exact commit or the version.
   # uses: amirisback/automated-build-android-app-with-github-action@6f05b6515c2f0ff68a7722cf4af68d87513a0a7a
   uses: amirisback/automated-build-android-app-with-github-action@2.2.4
