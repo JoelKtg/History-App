@@ -4,5 +4,5 @@
   uses: amirisback/automated-build-android-app-with-github-action@2.2.4
   with:
     # Input to use
-    myInput: # optional, default is world
+    myInput: #30
           
