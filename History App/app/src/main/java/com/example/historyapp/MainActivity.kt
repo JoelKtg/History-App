@@ -22,10 +22,21 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        var figuresArr= listOf(HistoricalPeople(R.drawable.pointing,56,"joemama","handsome")
-            , HistoricalPeople(R.drawable.mandela,99,"Nelson Mandela", "Mandela was the first black President of South Africa"),
+
+// An Array list of Historical people containing image, name and age as a parameter
+        var figuresArr= listOf(
+            HistoricalPeople(R.drawable.mandela,95,"Nelson Mandela", "Mandela was the first black President of South Africa"),
             HistoricalPeople(R.drawable.pngegg,86, "Nikolas Tesla","Invented electricity" ),
-            HistoricalPeople(R.drawable.adolf, 56,"Adolf Hitler", "War Lord")
+            HistoricalPeople(R.drawable.adolf, 56,"Adolf Hitler", "War Lord"),
+            HistoricalPeople(R.drawable.alanturing,41,"Alan Turing", "Cracked the Enigma"),
+            HistoricalPeople(R.drawable.picasso,91,"Pablo Picasso", "Artist"),
+            HistoricalPeople(R.drawable.georgewashington,67,"George Washington", "President"),
+            HistoricalPeople(R.drawable.osamu,39,"Osamu Dazai", "Writer"),
+            HistoricalPeople(R.drawable.socrates,71, "Socrates","Philosopher"),
+            HistoricalPeople(R.drawable.zeno,72, "Zeno of Citum","Philosopher"),
+            HistoricalPeople(R.drawable.davinci,67, "Leonardo Da vinci","Artist"),
+            HistoricalPeople(R.drawable.stalin,74, "Joseph Stalin","Politician"),
+            HistoricalPeople(R.drawable.moliere,51, "Moliere","PlayWright"),
             )
         var inputField=findViewById<EditText>(R.id.editText)
         val clearBtn=findViewById<Button>(R.id.clearBtn)
@@ -36,6 +47,7 @@ class MainActivity : AppCompatActivity() {
 
         notFoundIv.setImageDrawable(null)
 
+//        Clear button SetOnclickListener clears the field and the textviews
         clearBtn.setOnClickListener {
             inputField.text.clear()
             figureInfo.text=" "
@@ -63,7 +75,7 @@ class MainActivity : AppCompatActivity() {
 
                     figureIv.setImageResource(i.image)
                     figureInfo.setBackgroundColor(Color.WHITE)
-                    figureInfo.text="The historical Figure that Matches The age Provided is is ${i.name} "
+                    figureInfo.text="The historical Figure that Matches The age Provided is ${i.name} "
                     notFoundIv.setImageDrawable(null)
                     break
                 }
@@ -72,7 +84,6 @@ class MainActivity : AppCompatActivity() {
                 else if (searchedText.toInt()!=i.age ){
                     figureInfo.text="There's no Historical Figure of the age $searchedText"
                     figureIv.setImageDrawable(null)
-                    inputField.text.clear()
                     figureInfo.setBackgroundColor(Color.TRANSPARENT)
                     notFoundIv.setImageResource(R.drawable.confused)
 
@@ -94,6 +105,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
+//historicalPeople Data class with constructors of image , age and name
 class HistoricalPeople(val image:Int,val age:Int, val name:String, val fact:String){
 
 
