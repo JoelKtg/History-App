@@ -7,9 +7,16 @@
 <ul>
  <li>
   ![image](https://github.com/JoelKtg/History-App/assets/161457166/b5abfe92-3368-4094-92e4-39ebcd5567d8)
+
+
+  
  </li>
  <li>
+
+  
   ![image](https://github.com/JoelKtg/History-App/assets/161457166/369cada1-3e75-4d3f-bae4-d2fe5b9eef9a)
+
+  
  </li>
 </ul>
 
