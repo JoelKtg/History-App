@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
 
 
                 if (i.age==searchedText.toInt()){
-
+                    inputField.text.clear()
                     figureIv.setImageResource(i.image)
                     figureInfo.setBackgroundColor(Color.WHITE)
                     figureInfo.text="The historical Figure that Matches The age Provided is ${i.name} "
@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
     }
 }
 //historicalPeople Data class with constructors of image , age and name
-class HistoricalPeople(val image:Int,val age:Int, val name:String, val fact:String){
+data class HistoricalPeople(val image:Int,val age:Int, val name:String, val fact:String){
 
 
 
