@@ -65,3 +65,7 @@ Input Field will only accept numerical Values
 <H2>Youtube Link</H2>
 <p>https://youtu.be/JHv1X6Nw7_Y</p>
 
+<h2>Github Action Errors</h2>
+![full status ](https://github.com/JoelKtg/History-App/assets/161457166/49b4d894-5ca0-420b-abd6-0f815cea49f1)
+
+
