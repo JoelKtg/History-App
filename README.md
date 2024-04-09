@@ -37,6 +37,6 @@
  <li>age 51:Moliere</li>
  
 </ul>
-![bg2](https://github.com/JoelKtg/History-App/assets/161457166/f13ed376-98f7-4cc3-b882-88f67518d7fe)
+<img src"https://github.com/JoelKtg/History-App/assets/161457166/f13ed376-98f7-4cc3-b882-88f67518d7fe"/>
 
 
