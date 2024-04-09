@@ -39,4 +39,14 @@
 </ul>
 <img src"https://github.com/JoelKtg/History-App/assets/161457166/f13ed376-98f7-4cc3-b882-88f67518d7fe"/>
 
+<h2>Features</h2>
+<ul>
+<li>
+Input Field will only accept numerical Values
+</li>
+ <li>Input field does not accept blank input will inform the user about it</li>
+ <li>The Minimum accepted age is 20 And Maximum age is 100 </li>
+ <li>The clear Button will clear the search result and the input field </li>
+ <li>The Search button will search for a matching Figure that matches the age provided</li>
+</ul>
 
