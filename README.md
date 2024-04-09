@@ -4,8 +4,16 @@
  <p>The Purpose is to educate People about history by telling them Historical FIgures Who influenced the Wolrd wether it is politically , Artistically , Morally or with their Creativity </p>
 
 <h2> Design </h2>
-![image](https://github.com/JoelKtg/History-App/assets/161457166/b5abfe92-3368-4094-92e4-39ebcd5567d8)
-![image](https://github.com/JoelKtg/History-App/assets/161457166/369cada1-3e75-4d3f-bae4-d2fe5b9eef9a)
+<ul>
+ <li>
+  ![image](https://github.com/JoelKtg/History-App/assets/161457166/b5abfe92-3368-4094-92e4-39ebcd5567d8)
+ </li>
+ <li>
+  ![image](https://github.com/JoelKtg/History-App/assets/161457166/369cada1-3e75-4d3f-bae4-d2fe5b9eef9a)
+ </li>
+</ul>
+
+
 
 
  <P>The App has simple user interface uses Gold theme based color for components and the buttons and Edittext border color , the app has a history inspired Background Color </P>
