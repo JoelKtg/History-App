@@ -20,3 +20,20 @@
 
 <h2>Images</h2>
 <p> Used Png:https://www.pngegg.com/ for images</p>
+
+<h2>List of available Characters </h2>
+<ul>
+ <li>age 95:Nelson Mandela </li>
+ <li>age 56:Adolf Hitler</li>
+ <li>age 86:Nikolas Tesla</li>
+ <li>age 41:Alan Turing </li>
+ <li>age 91:Pablo Picasso </li>
+ <li>age 67:George Washington </li>
+ <li>age 39:Osamu Dazai </li>
+ <li>age 71:Socrates </li>
+ <li>age 72:Zeno of Citum</li>
+ <li>age 67:Leonardo Da vinci </li>
+ <li>age 74:Joseph Stalin</li>
+ <li>age 51:Moliere</li>
+ 
+</ul>
