@@ -19,7 +19,7 @@
  </ul>
 
 <h2>Images</h2>
-<p> Used Png:https://www.pngegg.com/ for images</p>
+<p> Source used for images https://www.pngegg.com/</p>
 
 <h2>List of available Characters </h2>
 <ul>
