@@ -7,7 +7,7 @@ env:
   # The name of the Play Store
   playstore_name: IIECat
 
-on:https://github.com/JoelKtg/History-App/edit/main/.github/workflows/blank.yml
+on:
 #Where release is writen , must match your branch name , I would suggest cloning your branch  at the end called release so it only builds the final code called release
   push:
     branches:
@@ -39,8 +39,8 @@ jobs:
           java-version: '17'
           cache: 'gradle'
 
-         - name: Make gradlew executable
-      run: chmod +x ./gradlew
+      - name: Change wrapper permissions
+        run: chmod +x ./gradlew
 
       # Run Tests Build
       - name: Run gradle tests
