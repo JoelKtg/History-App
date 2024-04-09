@@ -4,6 +4,10 @@
  <p>The Purpose is to educate People about history by telling them Historical FIgures Who influenced the Wolrd wether it is politically , Artistically , Morally or with their Creativity </p>
 
 <h2> Design </h2>
+![image](https://github.com/JoelKtg/History-App/assets/161457166/b5abfe92-3368-4094-92e4-39ebcd5567d8)
+![image](https://github.com/JoelKtg/History-App/assets/161457166/369cada1-3e75-4d3f-bae4-d2fe5b9eef9a)
+
+
  <P>The App has simple user interface uses Gold theme based color for components and the buttons and Edittext border color , the app has a history inspired Background Color </P>
  <h2>User Experience</h2>
  The app is easily navigable and doesnt take a lot to understand usability of the app
@@ -49,4 +53,5 @@ Input Field will only accept numerical Values
  <li>The clear Button will clear the search result and the input field </li>
  <li>The Search button will search for a matching Figure that matches the age provided</li>
 </ul>
+
 
