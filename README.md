@@ -68,4 +68,5 @@ Input Field will only accept numerical Values
 <h2>Github Action Errors</h2>
 ![full status ](https://github.com/JoelKtg/History-App/assets/161457166/49b4d894-5ca0-420b-abd6-0f815cea49f1)
 
+![error](https://github.com/JoelKtg/History-App/assets/161457166/622bb79a-e48e-434d-8945-c3a6842c4102)
 
