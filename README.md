@@ -28,6 +28,7 @@
      <li>Github</li>
      <li>Photoshop</li>
      <li>Canva</li>
+     <li>OBS Studio</li>
  </ul>
 
 <h2>Images</h2>
